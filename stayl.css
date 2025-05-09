@@ -1,0 +1,29 @@
+.box__parent{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    background-color: red;
+    width: 220px;
+    height: 220px;
+}
+@media (main-width:1196px) and (main-width:1435px){
+    .box{
+        background-color: blue;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .box__parent{
+        max-width: 500px;
+    }
+}
+@media (main-width:956px) and (main-width:1195px){
+    .box{
+        background-color: green ;
+    }
+}
